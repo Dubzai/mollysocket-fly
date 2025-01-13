@@ -1,0 +1,13 @@
+{
+  "name": "mollysocket-fly",
+  "version": "1.0.0",
+  "description": "MollySocket server for Fly.io",
+  "main": "index.js",
+  "scripts": {
+    "generate-qrcode": "node scripts/generate-qrcode.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  }
+}
